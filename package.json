@@ -1,0 +1,27 @@
+{
+  "name": "helloworld-web3-app",
+  "version": "1.0.0",
+  "description": "Sample hello world app using web3 technologies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeloxCrypto/helloworld-web3-app.git"
+  },
+  "author": "Craig McAulay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeloxCrypto/helloworld-web3-app/issues"
+  },
+  "homepage": "https://github.com/VeloxCrypto/helloworld-web3-app#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "ethers": "^5.4.7",
+    "hardhat": "^2.6.5"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
