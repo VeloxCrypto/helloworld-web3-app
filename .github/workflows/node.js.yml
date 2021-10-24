@@ -31,5 +31,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
+    - run: "echo env.PRIVATE_KEY"
     - run: npx hardhat compile
     - run: npx hardhat run scripts/deploy.js --network ropsten
