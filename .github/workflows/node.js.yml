@@ -20,7 +20,7 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     env:
-      API_KEY: ${{ secrets.API_URL }}
+      API_URL: ${{ secrets.API_URL }}
       PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
 
     steps:
